@@ -16,7 +16,7 @@ public class Lab2 {
 
         while (!stop) {
 
-            System.out.println("Введите номер задания от 1 до 15.");
+            System.out.println("Введите номер задания от 1 до 16.");
             System.out.print("Если хотите закончить, нажмите иное: ");
             int taskNumber = sc.nextInt();
 
@@ -402,6 +402,4 @@ public class Lab2 {
 
 
     }
-
-    /**/
 }

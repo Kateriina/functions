@@ -60,7 +60,7 @@ public class Input {
         System.out.printf("Введите массив из %d элементов: \n", size);
         int array[] = new int[size];
         for(int n = 0; n < size; n++){
-            array[n] =  inputInt("элемент массива", sc, false, false, false, false);
+            array[n] =  inputInt("элемент массива", sc, false, needDoubleDigit, false, false);
         }
 
         return array;
@@ -93,7 +93,7 @@ public class Input {
 
         ArrayList<Integer> arrayList = new ArrayList<>();
         for(int n = 0; n < size; n++){
-            arrayList.add( inputInt("элемент массива", sc, false, false, true, false));
+            arrayList.add( inputInt("элемент массива", sc, true, false, true, false));
         }
 
         return arrayList;
